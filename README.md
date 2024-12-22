@@ -1,6 +1,6 @@
-# Neural Network Implementation in TensorFlow
+# Neural Network Implementation in TensorFlow with Keras
 
-This project is a comprehensive guide to implementing a neural network using TensorFlow, including forward propagation, backpropagation, and gradient descent. The project is designed to provide a deeper understanding of the foundational concepts of neural networks and their implementation.
+This project is a comprehensive guide to implementing a neural network using TensorFlow and demonstrates the flexibility of Keras for building and training deep learning models. It includes forward propagation, backpropagation, and gradient descent to showcase the foundational concepts of neural networks.
 
 ---
 
@@ -16,6 +16,10 @@ This project is a comprehensive guide to implementing a neural network using Ten
   - Random weight initialization and gradient updates.
   - Gradient computation with TensorFlow's `GradientTape`.
 
+- **Integration with Keras:**
+  - Option to use Keras layers (`tf.keras.layers.Dense`) for defining network architectures.
+  - Leverage Keras for flexible and modular neural network design.
+
 - **Training Process:**
   - Iterative training with parameter updates.
   - Demonstration of weight and bias adjustments to minimize loss.
@@ -30,7 +34,7 @@ This project is a comprehensive guide to implementing a neural network using Ten
 
 2. **Forward Propagation:**
    - Single-layer, single-neuron implementation with sigmoid activation.
-   - Multi-layer, multi-neuron forward pass using TensorFlow operations.
+   - Multi-layer, multi-neuron forward pass using TensorFlow operations and Keras layers.
 
 3. **Loss Calculation:**
    - Compute the difference between predicted and actual values.
@@ -50,6 +54,7 @@ This project is a comprehensive guide to implementing a neural network using Ten
 
 - Python 3.x
 - TensorFlow 2.x
+- Keras (included with TensorFlow)
 - Pandas
 - NumPy
 - scikit-learn
